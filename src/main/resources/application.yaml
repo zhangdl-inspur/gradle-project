@@ -1,0 +1,18 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8080
+  servlet:
+    context-path: /project
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://10.110.1.26:3306/icp_as?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      username: ass
+      password: ass0617
+
+  #profiles:
+   # active: dev
